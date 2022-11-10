@@ -17,3 +17,7 @@ Then(
     assert.equal(this.whatIHeard, expectedResponse);
   }
 );
+
+When('I want to divide {int} by {int}', (int: number, int2: number) => {
+  // Write code here that turns the phrase above into concrete actions
+})
